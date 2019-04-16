@@ -68,6 +68,7 @@ def endgame():
 
     if num_of_guesses == 0:
         print("You are out of guesses, you lose.\n")
+        print("The word was: " + word_to_guess)
     else:
         print("You have guessed the word!\n")
         print("The word was: " + word_to_guess)
