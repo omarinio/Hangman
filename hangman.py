@@ -20,7 +20,6 @@ def setup():
         guessing_array.append('_')
 
     print(guessing_array)
-    print(word_length)
 
 
 def guess(letter):
